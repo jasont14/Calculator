@@ -1,0 +1,131 @@
+body{
+    margin-left: 50px;
+    margin-top: 30px;
+    font-family: 'Robot', sans-serif;
+    font-size: 12px;
+    text-align: left;
+}
+
+h2{
+    margin-bottom: 5px;
+}
+
+ul{
+    list-style: none;
+    margin: 0px;
+    padding-left: 20px;
+}
+
+#calculator{
+    background-color: lightgray;
+    padding: 5px;
+    margin: 50px 0px 0px 30px;
+    font: 12px arial;
+    width:255px;
+    box-sizing: border-box;
+    
+}
+
+#upper{
+    margin: 5px 0px 0px 5px;
+    width: 235px;
+}
+
+#display{
+    padding: 5px 0px 5px 0px;
+    width:230px;
+    display: inline-block;    
+    box-sizing: border-box;
+}
+
+#displaycalc{
+    text-align: right;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 40px;
+    width: 230px;
+}
+
+#titlebar{
+    padding: 0px 5px 0px 0px;
+    display: inline-block;
+    width: 235px;
+}
+.calcname{
+    padding: 0px 0px 0px 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: darkgray;      
+    display: inline-block;
+    width: 190px;
+    box-sizing: border-box;
+}
+
+.clr{
+    padding: 0px 0px 0px 2px;
+    margin: 0px;
+    display: inline-block;
+    width: 40px;
+    box-sizing: border-box;
+}
+
+#keypad{
+    margin: 0px 0px 5px 5px;
+    width: 235px;
+}
+
+.key{
+    margin: 2px 0px 2px 0px;
+    padding: 0px;
+    display: inline-block;  
+    background-color: whitesmoke;  
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;   
+    box-sizing: border-box;
+    width: 40px;
+    height: 40px;
+    line-height: 40px; 
+
+    /* prevents user from selecting text in keys */    
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.key:hover{
+    background-color: white;
+    border: 1px solid darkslategray;
+    box-shadow: white;
+}
+
+.key:active{
+    box-shadow: darkgray 5px;
+}
+
+#numpad{
+    padding: 0px 0px 0px 0px;
+    margin: 0px;
+    display: inline-block;
+    width: 190px;
+    box-sizing: border-box;
+}
+
+.num{    
+    width: 60px;    
+}
+
+.eql{
+    width: 60px; 
+}
+
+#opspad{
+    padding: 0px 0px 0px 0px;
+    margin: 0px;
+    display: inline-block;
+    width: 40px;
+    box-sizing: border-box;
+}
